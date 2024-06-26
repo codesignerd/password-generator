@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(155, 212, 212);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 20%;
+}
+
+#passwordDisplay {
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 1rem;
+    font-size: 1.2rem;
+    width: 200px;
+    margin-inline: auto;
+}
+
+#generateBtn {
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 1rem;
+    cursor: pointer;
+}
